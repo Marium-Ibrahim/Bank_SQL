@@ -1,0 +1,30 @@
+package Repository;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import DB.DBConnect;
+import Interface.ICustomer;
+
+public class ICustomerRepo implements ICustomer {
+	
+	DBConnect instance= new DBConnect();
+	Connection con=instance.createConnection();
+
+	public void customerNames() {
+		
+		String insertData = "INSERT INTO [dbo].[table1_ema] ( Employee_Name, Employee_Salary, Employee_Country, Employee_City,Employee_ZipCode) VALUES (?,?,?,?,?)";
+		PreparedStatement preparedStatement = con.prepareStatement(insertData);
+		
+		preparedStatement.setString(1, user.getEmployee_Name());
+		preparedStatement.setFloat(2, user.getEmployee_Salary());
+		preparedStatement.setString(3, user.getEmployee_Country());
+		preparedStatement.setString(4, user.getEmployee_City());
+		preparedStatement.setString(5, user.getEmployee_ZipCode());
+		
+		preparedStatement.execute();
+	
+		
+	}
+
+}

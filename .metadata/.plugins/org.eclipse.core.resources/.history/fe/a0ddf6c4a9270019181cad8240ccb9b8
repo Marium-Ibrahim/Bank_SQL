@@ -1,0 +1,8 @@
+package Interface;
+
+public interface ICustomer {
+	
+	//Task 1
+	public void customerNames();
+
+}

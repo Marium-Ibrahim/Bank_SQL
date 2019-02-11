@@ -1,0 +1,7 @@
+package Entity;
+
+public class Borrower {
+	
+	String customer_id, customer_name, loan_number;
+
+}

@@ -1,0 +1,25 @@
+package Repository;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import DB.DBConnect;
+import Interface.ICustomer;
+
+public class ICustomerRepo implements ICustomer {
+	
+	DBConnect instance= new DBConnect();
+	Connection con=instance.createConnection();
+	ResultSet res= null;
+
+	public void customerNames() throws SQLException {
+		
+		String query = "g1_names_customer";
+		PreparedStatement preparedStatement = con.prepareStatement(query);
+		preparedStatement.execute();
+		
+	}
+
+}

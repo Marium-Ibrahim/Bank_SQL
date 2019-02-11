@@ -1,0 +1,8 @@
+package Interface;
+
+public interface IAccount {
+	
+	public void accNumBlGt700();
+	public void brightonBalance();
+
+}

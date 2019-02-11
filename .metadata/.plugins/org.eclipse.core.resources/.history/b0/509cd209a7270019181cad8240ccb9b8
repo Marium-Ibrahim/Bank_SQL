@@ -1,0 +1,17 @@
+package Repository;
+
+import Interface.IBranch;
+
+public class IBranchRepo implements IBranch{
+
+	public void showBranchTable() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void branchNameWithAsset1to4() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package Operation;
+
+import DB.DBConnect;
+
+public class Operate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DBConnect instance= new DBConnect();
+		Connection con=instance.createConnection();
+	}
+
+}

@@ -1,0 +1,11 @@
+package Interface;
+
+public interface Dep_Acc_Cus {
+	
+	//Task 8 Procedure: g1_custname_accnum_balance
+	public void depDetail();
+	
+	//Task 9 Procedure: g1_custname_accnum_less_balance
+	public void depWithLessBl();
+
+}

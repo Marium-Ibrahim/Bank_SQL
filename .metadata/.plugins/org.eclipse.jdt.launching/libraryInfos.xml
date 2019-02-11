@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Apps\Java\jre\New folder" version="1.8.0_191">
+<bootpath>
+<entry path="C:\Apps\Java\jre\New folder\lib\resources.jar"/>
+<entry path="C:\Apps\Java\jre\New folder\lib\rt.jar"/>
+<entry path="C:\Apps\Java\jre\New folder\lib\sunrsasign.jar"/>
+<entry path="C:\Apps\Java\jre\New folder\lib\jsse.jar"/>
+<entry path="C:\Apps\Java\jre\New folder\lib\jce.jar"/>
+<entry path="C:\Apps\Java\jre\New folder\lib\charsets.jar"/>
+<entry path="C:\Apps\Java\jre\New folder\lib\jfr.jar"/>
+<entry path="C:\Apps\Java\jre\New folder\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Apps\Java\jre\New folder\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Apps\Java\jre\New folder\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

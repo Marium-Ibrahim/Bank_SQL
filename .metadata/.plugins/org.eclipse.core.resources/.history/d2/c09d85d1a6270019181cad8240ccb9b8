@@ -1,0 +1,17 @@
+package Repository;
+
+import Interface.IAccount;
+
+public class IAccountRepo  implements IAccount{
+
+	public void accNumBlGt700() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void brightonBalance() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

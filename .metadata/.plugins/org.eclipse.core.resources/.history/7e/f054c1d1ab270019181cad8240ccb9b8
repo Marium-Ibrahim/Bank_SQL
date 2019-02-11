@@ -1,0 +1,19 @@
+package Operation;
+
+import java.sql.Connection;
+
+import DB.DBConnect;
+
+public class Operate {
+
+	public static void main(String[] args) {
+		
+		DBConnect instance= new DBConnect();
+		Connection con=instance.createConnection();
+		
+		if(con!=null)
+			System.out.println("Connected");
+		
+	}
+
+}

@@ -1,0 +1,7 @@
+package Repository;
+
+import Interface.IAccount;
+
+public class IAccountRepo  implements IAccount{
+
+}

@@ -1,0 +1,10 @@
+package Entity;
+
+public class Branch {
+	
+	String branch_name, branch_city;
+	double assets;
+	
+	
+
+}

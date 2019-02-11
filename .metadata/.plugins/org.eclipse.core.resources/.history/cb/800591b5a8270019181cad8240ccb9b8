@@ -1,0 +1,12 @@
+package Repository;
+
+import Interface.ICustomer;
+
+public class ICustomerRepo implements ICustomer {
+
+	public void customerNames() {
+	
+		
+	}
+
+}

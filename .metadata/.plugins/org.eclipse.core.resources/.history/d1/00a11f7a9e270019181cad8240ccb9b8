@@ -1,0 +1,9 @@
+package Interface;
+
+public interface IBranch {
+	
+	//Task 3
+	public void showBranchTable();
+	public void branchNameWithAsset1to4();
+
+}

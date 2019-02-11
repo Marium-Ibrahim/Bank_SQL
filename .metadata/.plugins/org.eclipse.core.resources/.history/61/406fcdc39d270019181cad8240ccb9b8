@@ -1,0 +1,8 @@
+package Interface;
+
+public interface Dep_Acc_Cus {
+	
+	//Task 8
+	public void dep_detail();
+
+}

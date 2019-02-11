@@ -1,0 +1,8 @@
+package Interface;
+
+public interface IBranch {
+	
+	void showBranchTable();
+	void branchNameWithAsset1to8();
+
+}

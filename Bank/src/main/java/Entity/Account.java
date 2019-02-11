@@ -1,0 +1,29 @@
+package Entity;
+
+public class Account {
+	
+	String account_number;
+	String branch_name;
+	double balance;
+	
+	public String getAccount_number() {
+		return account_number;
+	}
+	public void setAccount_number(String account_number) {
+		this.account_number = account_number;
+	}
+	public String getBranch_name() {
+		return branch_name;
+	}
+	public void setBranch_name(String branch_name) {
+		this.branch_name = branch_name;
+	}
+	public double getBalance() {
+		return balance;
+	}
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+	
+
+}

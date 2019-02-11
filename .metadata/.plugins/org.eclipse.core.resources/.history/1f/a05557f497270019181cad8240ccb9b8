@@ -1,0 +1,9 @@
+package Entity;
+
+public class Account {
+	
+	String account_number;
+	String branch_name;
+	double balance;
+
+}

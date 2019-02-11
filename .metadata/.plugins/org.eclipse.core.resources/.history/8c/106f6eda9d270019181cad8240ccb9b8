@@ -1,0 +1,8 @@
+package Interface;
+
+public interface Dep_Acc_Cus {
+	
+	//Task 8 Procudure: g1_custname_accnum_balance
+	public void dep_detail();
+
+}

@@ -1,0 +1,33 @@
+package Operation;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import DB.DBConnect;
+import Interface.ICustomer;
+import Repository.ICustomerRepo;
+
+public class Operate {
+	
+	
+
+	public static void main(String[] args) {
+		
+		DBConnect instance= new DBConnect();
+		Connection con=instance.createConnection();
+		
+		ICustomer iCusRepo = new ICustomerRepo();
+			
+		if(con!=null)
+			System.out.println("Connected");
+		
+		try {
+			iCusRepo.customerNames();
+		} catch (SQLException e) {
+			
+			e.printStackTrace();
+		}
+		
+	}
+
+}

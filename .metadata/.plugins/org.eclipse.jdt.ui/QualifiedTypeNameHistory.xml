@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.sql.DriverManager"/>
+<fullyQualifiedTypeName name="DB.DBConnect"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="Interface.IAccount"/>
+<fullyQualifiedTypeName name="Interface.IBranch"/>
+<fullyQualifiedTypeName name="Interface.ILoan"/>
+<fullyQualifiedTypeName name="Interface.IDep_Acc_Cus"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="Repository.ICustomerRepo"/>
+<fullyQualifiedTypeName name="Interface.ICustomer"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,43 @@
+package Operation;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.util.Scanner;
+
+import DB.DBConnect;
+import Interface.ICustomer;
+import Repository.ICustomerRepo;
+
+public class Operate {
+	
+	
+
+	public static void main(String[] args) {
+		
+		DBConnect instance= new DBConnect();
+		Connection con=instance.createConnection();
+		
+		
+		ICustomer iCusRepo = new ICustomerRepo();
+		
+		
+		int taskNum;
+			
+		if(con==null) {
+			System.out.println("Connection failed!");
+			return 0;
+		}
+			
+		
+		Scanner sc = new Scanner(System.in);
+		
+		try {
+			iCusRepo.customerNames();
+		} catch (SQLException e) {
+			
+			e.printStackTrace();
+		}
+		
+	}
+
+}

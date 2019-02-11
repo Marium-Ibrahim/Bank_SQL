@@ -1,0 +1,34 @@
+package Entity;
+
+public class Loan {
+
+	String loan_number, branch_name,customer_id;
+	double amount;
+	
+	public String getLoan_number() {
+		return loan_number;
+	}
+	public void setLoan_number(String loan_number) {
+		this.loan_number = loan_number;
+	}
+	public String getBranch_name() {
+		return branch_name;
+	}
+	public void setBranch_name(String branch_name) {
+		this.branch_name = branch_name;
+	}
+	public String getCustomer_id() {
+		return customer_id;
+	}
+	public void setCustomer_id(String customer_id) {
+		this.customer_id = customer_id;
+	}
+	public double getAmount() {
+		return amount;
+	}
+	public void setAmount(double amount) {
+		this.amount = amount;
+	}
+	
+	
+}
